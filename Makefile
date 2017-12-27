@@ -1,7 +1,8 @@
 build:
-	docker build -t consignment-cli .
+	docker build -t shippy-consignment-cli .
 
 run:
 	docker run --net="host" \
 		-e MICRO_REGISTRY=mdns \
-		consignment-cli
+		shippy-consignment-cli consignment.json \
+  	    <insert_token>
