@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"context"
+
 	pb "github.com/erikperttu/shippy-consignment-service/proto/consignment"
 	microClient "github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/cmd"
